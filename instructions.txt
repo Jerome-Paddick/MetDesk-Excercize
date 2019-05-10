@@ -1,0 +1,18 @@
+Instructions:-
+
+I've attached some data. It is our Country Weighted Graph data for the UK, for the EC46 Model which goes out a month and a half, for the parameter/level 2 metre Air Temperature (also known as tt as a shorthand term for 2m Air Temp).
+
+The challenge that I hope you would enjoy undertaking is to produce a new python program that will read in the CSV file from disk into some object within Python of your choosing, then perform some simple statistics against the values that are provided in the time series.
+
+The statistics I would like to see are: -
+* Min Temperature and the date/time(s) associated
+* Max Temperature and the date/time(s) associated
+* Mean Temperature of the whole Time-Series
+* Median Temperature of the whole Time-Series
+* Warmest Monday(s) of the whole Time-Series
+
+Output requested: -
+1.	The Python (version 2.X) program source code
+2.	The results of the above statistical request
+
+If you want to produce some other interesting statistics from the data then feel free to show off.
