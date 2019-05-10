@@ -1,0 +1,26 @@
+The process data file is split into 2 parts
+
+function read_data:
+function which ingests the csv file stored in the data folder and line by line appends that data into a list of
+dictionaries, it has optional parameters to set a start date and end date which it will accept
+
+class Temperature:
+class which processes data and can be called with a number of class functions
+
+    __init__ -> ingests list of dicts containing date and temperature readings and stores this data and a list of the
+        surface temps as class variables
+
+    min -> returns minimum value from surface temps list
+
+    max -> returns minimum value from surface temps list
+
+    range -> returns difference in temps between highest and lowest values
+
+    mean -> returns mean of surface temps
+
+    median -> returns median of surface temps
+
+    warmest_weekday -> returns dict with date and temperature of hottest day/s corresponding to certain day of the week
+        default - 0/Monday
+
+    line_plot -> uses matplotlib to plot the data ingested on a line graph
