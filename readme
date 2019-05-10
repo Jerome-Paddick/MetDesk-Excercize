@@ -2,7 +2,8 @@ The process data file is split into 2 parts
 
 function read_data:
 function which ingests the csv file stored in the data folder and line by line appends that data into a list of
-dictionaries, it has optional parameters to set a start date and end date which it will accept
+dictionaries, it has optional parameters to set a start date and end date which it will accept as well as excluding
+unreasonable surface temperatures
 
 class Temperature:
 class which processes data and can be called with a number of class functions
