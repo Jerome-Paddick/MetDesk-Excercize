@@ -1,0 +1,7 @@
+min -0.3
+max 10.4
+range 10.7
+mean 5.8
+median 5.5
+warmest [{'date': datetime.datetime(2018, 2, 18, 18, 0), 'surface_temp': 8.9},
+         {'date': datetime.datetime(2018, 2, 19, 0, 0), 'surface_temp': 8.9}]
